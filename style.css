@@ -1,0 +1,112 @@
+* {
+margin: 0px;
+height:100%;
+}
+
+body {
+background: linear-gradient(to right, #ff4a8f, #ffb554, rgb(240, 234, 226));
+display: flex ;
+justify-content: center;
+align-items: center;
+
+}
+
+.rutan {
+    
+    width: 250px;
+    height:250px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: rgb(243, 243, 241);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5%;
+
+  
+
+}
+
+#ett {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 12px;
+}
+
+form {
+width: 300px;
+border-radius: 10px;
+flex-direction: column;
+display: flex;
+}
+
+
+input[type=text]:hover,input[type=email]:hover, textarea:hover {
+    box-shadow: 0 0 3px;
+    background-color: rgb(243, 243, 241);
+}
+
+input[type=text],input[type=email], textarea {
+    font-style: italic;
+    background-color: rgb(226, 224, 224);
+    width: 100%;
+    padding: 10px;
+    border-style: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-right: 3px;
+    resize: vertical;  
+}
+
+
+input[type=email] {
+    margin-top: 5px;
+}
+#s-up {
+    background-color: rgb(77, 140, 236);
+    color: white;
+    width: 100%;
+    padding: 8px;
+    border-style: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    resize: vertical;
+    cursor:pointer;
+}
+
+#s-up:hover{
+    box-shadow: black 0 0 4px;
+}
+	
+
+.check {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    font-size: 10px;  
+    margin-top:10px;
+}
+
+input[type=checkbox]{
+    margin: 4px;
+}
+.name {
+    display: flex;
+    flex-direction: row; 
+}
+
